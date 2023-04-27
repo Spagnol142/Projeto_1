@@ -58,6 +58,8 @@ section h2 {
     margin-bottom: 14px;
     color: #e2e2e2;
     font-size: 40px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: normal;
 }
 
 section p {
@@ -75,7 +77,6 @@ section img {
 }
 
 footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -84,4 +85,41 @@ footer {
     font-size: 15px;
     color: #e2e2e2;
     background-color: black;
+}
+
+.branch-list li {
+    display: inline;
+}
+
+.branch-list img {
+    height: 60px;
+}
+
+#Contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 300px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+}
+
+.container h2 {
+    margin-top: 0%;
+}
+
+#Contact {
+    margin-top: -125px;
 }
